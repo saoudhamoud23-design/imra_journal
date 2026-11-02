@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f0e6">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>My Little Journal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="view" aria-live="polite"></main>
+  <button id="fab" type="button" aria-label="Add something new">+</button>
+  <nav id="tabs" aria-label="Main"></nav>
+  <div id="toast" role="status"></div>
+  <noscript><p style="padding:24px">This journal needs JavaScript to run.</p></noscript>
+
+  <script src="gift.js"></script>
+  <script src="db.js"></script>
+  <script src="shared.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
